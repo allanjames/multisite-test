@@ -1,0 +1,53 @@
+/* You can add global styles to this file, and also import other style files */
+h1 {
+    color: #930100;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+    text-align: center;
+}
+
+button {
+    font-family: Arial;
+    background-color: #930100;
+    border: none;
+    padding: 7px 11px;
+    border-radius: 4px;
+    cursor: pointer;
+    cursor: hand;
+    font-weight: 700;
+    color: yellow;
+    font-size: 20px;
+}
+
+input {
+    height: 37px;
+    font-size: 18px;
+}
+
+.col span {
+    font-weight: 600;
+    font-size: 20px;
+    display: inline-block;
+    padding: 10px;
+}
+
+.center {
+    text-align: center;
+}
+
+body, input[text], button {
+    color: #888;
+    font-family: Cambria, Georgia;
+}
+.col {
+    display: inline-block;
+    width: 48%;
+    vertical-align: top;
+}
+
+iframe {
+    width: 76%;
+    height: 600px;
+    display: none;
+    margin: 2% 10%;
+}

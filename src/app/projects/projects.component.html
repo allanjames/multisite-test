@@ -1,0 +1,15 @@
+<div class="row">
+    
+    <div class="col center">
+        <button (click)="getProjects()">Search Databases</button>
+        <input type="text" name="siteurl" [(ngModel)]="p.siteurl" />
+        <div><span>URL: </span><span id="showQ"></span></div>
+    </div>
+    <div class="col">
+        
+        <project [post]="post"></project>
+        
+    </div>
+    <iframe id="preview" src=""></iframe>
+
+</div>

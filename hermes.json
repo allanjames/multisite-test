@@ -1,0 +1,21 @@
+{
+    "name": "multisite-test",
+    "account": "allanjames",
+    "repo": "multisite-test",
+    "global": {
+        "variable_a": "/var/www/html/tech/team/james/multisite-test",
+        "variable_b": "https://tech.brafton.com/team/james/multisite-test",
+        "group": "www",
+        "owner": "apache"
+    },
+    "deploy": [
+        {
+            "tag": "live",
+            "branch": "master",
+            "beforeinstall": "scripts/before.sh",
+            "afterinstall": "scripts/after.sh",
+            "source": "dist",
+            "target": "/var/www/html/tech/team/james/multisite-test"
+        }
+    ]
+}
