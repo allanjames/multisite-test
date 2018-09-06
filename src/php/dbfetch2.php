@@ -2,7 +2,7 @@
 
 include 'class_connect.php';
 
-$conn = new Connection('69.195.124.53','clsubdom_multisite','clsubdom_dbuser');
+$conn = new Connection('########','########','########');
 $conn1 = $conn->connect();
 //var_dump($conn1);
 
@@ -30,7 +30,7 @@ while($row = $result->fetch_assoc()){
 }
 $count = sizeof($multisite);
 
-$bft_conn1 = new Connection('162.144.22.62','braftons_multisite','braftons_wpusr');
+$bft_conn1 = new Connection('#########','#########','########');
 $bft_conn = $bft_conn1->connect();
 
 $resp = $bft_conn->query($sql);
